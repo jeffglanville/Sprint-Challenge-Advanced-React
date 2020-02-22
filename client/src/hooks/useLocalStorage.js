@@ -17,3 +17,5 @@ const useLocalStorage = (key, playerData) => {
 
     return [value, setPlayer];
 }
+
+export default useLocalStorage;
