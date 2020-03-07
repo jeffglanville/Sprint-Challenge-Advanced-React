@@ -1,7 +1,7 @@
 import useLocalStorage from '../hooks/useLocalStorage';
 
-const usePlayers = (key, playersData) => {
-    const [values, setValues] = useLocalStorage([key], playersData);
+const usePlayers = (key, playerData) => {
+    const [values, setValues] = useLocalStorage([key], playerData);
 
     const playerValue = e => {
         setValues({
@@ -10,5 +10,6 @@ const usePlayers = (key, playersData) => {
     }
     return [playerValue];
 }
+
 
 export default usePlayers;

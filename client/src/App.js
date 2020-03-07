@@ -20,13 +20,11 @@ class App extends React.Component {
     )
   }
 
-
-
   render() {
     return (
       <div className="App">
-        <h1>Player Data</h1>
-        <Players />
+        <h1>**Soccer Stars**</h1>
+        <Players players={this.state.players}/>
       </div>
     );
   }
