@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
+        "at",
+        "component",
         "lifecycle",
-        "stateful"
+        "node",
+        "stateful",
+        "unmount"
     ]
 }
