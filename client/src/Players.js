@@ -3,7 +3,7 @@ import './hooks/usePlayers';
 import './Players.css';
 
 
-const Players = props => {
+const Players = (props) => {
 
     return (
             <div>
